@@ -10,6 +10,11 @@ const styles = StyleSheet.create({
         marginRight: 10,
         borderWidth: 3,
         borderRadius: 12.5,
+        shadowColor: 'black',
+        shadowOffset: { width: 2, height: 4 },
+        shadowOpacity: 0.5,
+        shadowRadius: 3.84,
+        elevation: 5,
     },
     titulo: {
         fontWeight: 'bold',
@@ -30,7 +35,7 @@ const styles = StyleSheet.create({
         marginBottom: 10,
         borderWidth: 3,
         borderRadius: 8.5,
-    }
+    },
 });
 
 export default styles;
