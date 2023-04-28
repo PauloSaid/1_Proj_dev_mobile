@@ -36,7 +36,30 @@ const styles = StyleSheet.create({
         alignItems: "center",
         height: '100%',
         flex: 1,
-    }
+    },
+    searchContainer: {
+        paddingHorizontal: 10,
+        paddingVertical: 5,
+        backgroundColor: '#fff',
+        borderRadius: 5,
+        marginHorizontal: 20,
+        marginTop: 15,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.5,
+        shadowRadius: 3.84,
+        elevation: 5,
+        marginBottom: 2,
+        borderBottomColor: 'black',
+        borderBottomWidth: 2,
+      },
+      searchBox: {
+        fontSize: 16,
+        fontWeight: '400',
+        paddingHorizontal: 10,
+        paddingVertical: 5,
+        color: '#000',
+      },
 });
 
 
