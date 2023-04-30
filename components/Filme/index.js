@@ -13,6 +13,12 @@ export default function Filme({ data }) {
             <Text style={styles.titulo}> {data.attributes.titulo} </Text>
             <Image source={{ uri: uriConcatenada }} style={styles.img} />
             <Text style={styles.sinopse}> {data.attributes.sinopse} </Text>
+            <View style={styles.button}>
+                <Button
+                    title="COMPRAR"
+                    color="green"
+                ></Button>
+            </View>
         </View>
     );
 }
