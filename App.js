@@ -33,7 +33,7 @@ export default function App() {
         </View>
       </View>
 
-      <SearchBox/>
+      <SearchBox />
 
       <View style={styles.filmes}>
         {filmes.length > 0 ? filmes.map(filme => (
